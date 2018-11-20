@@ -1,8 +1,39 @@
 
 html{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 img{
     max-width: 100%;
+}
+h2, .h2{
+    font-size: 2.8rem;
+}
+body{
+    font-family: 'ArialMT';
+}
+h1,h2,h3,h4,h5,h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'MuseoSlab-500';
+}
+header{
+    border-bottom: 1px dotted #000;
+}
+.navbar-brand{
+    max-width: 50%;
+}
+header .navbar-nav a{
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px dotted #000;
+    transition: 0.5s linear;
+}
+header .navbar-nav li:last-of-type a
+{
+    border-bottom: none;
+}
+header .navbar-nav li.active a,
+header .navbar-nav li:hover a{
+    background: #000;
+    color: #fff !Important;
 }
